@@ -2,7 +2,7 @@
 login api by lumen<br>
 1、使用mysql建立lumen数据库，在数据库中建立一个user表。<br>
 数据库user表如下图所示:<br>
-![](https://github.com/qihao123/lumen_login_api/tree/master/database.jpg)
+![](https://github.com/qihao123/lumen_login_api/database.jpg)
 2、前端index.html文件放在resource/view文件夹下。其实现了一个简单的登陆界面，利用post提交username，password。效果如图：
 ![](https://github.com/qihao123/lumen_login_api/tree/master/index.jpg)<br>
 3、验证username在数据库中的存在。<br>
