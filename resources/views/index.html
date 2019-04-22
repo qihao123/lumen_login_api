@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>登陆界面</title>
+</head>
+<style type="text/css">
+  .jiemian{
+    position: absolute;
+    top: 150px;
+    left: 650px;
+  }
+  .biaoti{
+    position: absolute;
+    top:30px;
+    left: 725px;
+    color: red;
+  }
+	body{
+		color: red;
+		text-align:center;
+		}
+    h1{
+      top: 300;
+    }
+</style>
+<div class="biaoti">
+<h1>登陆系统</h1>
+</div>
+<form  method="post" action="save.php">
+<br><br><br>
+<div class="jiemian">
+      <h3><tr><td><label for="username">用户名:</label></td><td>
+      <input type="text"  name="username" id="username" value="" /></td><td>
+      <input type="submit" value="登陆"  name="submit" /><br></td><td>
+      <label for="pass"><br>密&nbsp码:</label></td><td>
+      <input type="password"  name="pass" id="pass" value="" /></td><td>
+      <input type="reset" value="重置" name="reset" />
+      <br><br></td><td>
+</div>
+</form>   
+</body>
+</html>
